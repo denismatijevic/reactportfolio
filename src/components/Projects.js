@@ -1,5 +1,5 @@
 import React from "react";
-import {  MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBBtn, MDBView, MDBMask } from "mdbreact";
+import {  MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBView, MDBMask } from "mdbreact";
 
 const Projects = () => {
   return (
@@ -21,21 +21,20 @@ const Projects = () => {
               </a>
             </MDBView>
             <MDBCardBody className="pb-0">
-              <a href="#!" className="green-text">
+              <a href="http://flix-nut.herokuapp.com/" className="green-text">
                 <h5 className="font-weight-bold mt-2 mb-3">
-                  <MDBIcon fas icon="chart-line" className="pr-2" />
-                  Marketing
+                <MDBIcon fab icon="github" />
+                  Movie Tracker
                 </h5>
               </a>
-              <h4 className="font-weight-bold mb-3">Title of the news</h4>
               <p>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                amet, consectetur, adipisci velit cupidatat proident
-                voluptatem quia numquam.
+              First Register as a new member with a valid email and password.
+              Any future visits the user only needs to sign in.
+              Next click the search button and search for any movie.
+              Next rate the movie on a scale of 0-100.
+              After the user will see their rating compared to other users.
+              Finally click on the bat profile picture to log out.
               </p>
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
             </MDBCardBody>
           </MDBCol>
           <MDBCol md="6" xl="5" className="mb-4">
@@ -50,21 +49,20 @@ const Projects = () => {
               </a>
             </MDBView>
             <MDBCardBody className="pb-0">
-              <a href="#!" className="blue-text">
+              <a href="https://jordanrbunnell.github.io/spaceexploration/" className="blue-text">
                 <h5 className="font-weight-bold mt-2 mb-3">
-                  <MDBIcon icon="eye" className="pr-2" />
-                  Entertainment
+                <MDBIcon fab icon="github" />
+                  Space Exploration
                 </h5>
               </a>
-              <h4 className="font-weight-bold mb-3">Title of the news</h4>
               <p>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                amet, consectetur, adipisci velit cupidatat proident
-                voluptatem quia numquam.
+              As a space enthusiast I want to see cool facts about space.
+              I want to be able to click on different topics and learn more about them.
+              So that I can plan my collonization of Mars.
+              I'd like to know the weather on Mars.
+              I want to know if any asteroids are going to hit or pass near by the pale blue dot.
+
               </p>
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
             </MDBCardBody>
           </MDBCol>
           <MDBCol md="6" xl="5" className="mb-4">
@@ -79,21 +77,17 @@ const Projects = () => {
               </a>
             </MDBView>
             <MDBCardBody className="pb-0">
-              <a href="#!" className="brown-text">
+              <a href="https://fitaf.herokuapp.com/?id=5f9e2692de6c5b001735efbf" className="brown-text">
                 <h5 className="font-weight-bold mt-2 mb-3">
-                  <MDBIcon icon="camera" className="pr-2" />
-                  Travel
+                <MDBIcon fab icon="github" />
+                  Fitness Tracker
                 </h5>
               </a>
-              <h4 className="font-weight-bold mb-3">Title of the news</h4>
               <p>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                amet, consectetur, adipisci velit cupidatat proident
-                voluptatem quia numquam.
+              A way to track your workouts
+              Able to enter resistance training and cardiovascular training
+              Once the workout is completed you are able to see your last workout on the home page
               </p>
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
             </MDBCardBody>
           </MDBCol>
           <MDBCol md="6" xl="5" className="mb-4">
@@ -103,26 +97,20 @@ const Projects = () => {
                 alt=""
                 className="img-fluid"
               />
-              <a href="#!">
+              <a href="https://mvceatdaburger.herokuapp.com/burgers">
                 <MDBMask overlay="white-slight" />
               </a>
             </MDBView>
             <MDBCardBody className="pb-0">
               <a href="#!" className="cyan-text">
                 <h5 className="font-weight-bold mt-2 mb-3">
-                  <MDBIcon icon="phone" className="pr-2" />
-                  Technology
+                <MDBIcon fab icon="github" />
+                  Eat Da Burger
                 </h5>
               </a>
-              <h4 className="font-weight-bold mb-3">Title of the news</h4>
               <p>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                amet, consectetur, adipisci velit cupidatat proident
-                voluptatem quia numquam.
+              This is a web application to track the types of burgers a user has eaten. It was built on the client side using express handlebars and it is linked to a MySQL database
               </p>
-              <MDBBtn color="success" rounded>
-                MDBView more
-              </MDBBtn>
             </MDBCardBody>
           </MDBCol>
         </MDBRow>
