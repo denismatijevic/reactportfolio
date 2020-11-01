@@ -22,13 +22,13 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem active>
-              <MDBNavLink to="#!">About</MDBNavLink>
+              <MDBNavLink to="./About">About</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Projects</MDBNavLink>
+              <MDBNavLink to="./Projects">Projects</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Contact</MDBNavLink>
+              <MDBNavLink to="./Contact">Contact</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
             </MDBNavItem>

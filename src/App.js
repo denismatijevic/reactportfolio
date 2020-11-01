@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch } from "react-router-dom"
 import NavbarPage from './components/NavbarPage';
-import Footer from './components/Footer';
-import Picture from "./components/Picture";
+import Contact from './components/Contact';
+import About from "./components/About";
 import Projects from "./components/Projects";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <>
       <NavbarPage />
       <div>
-        <Picture />
+        <About />
       </div>
         <div>
           <div>
@@ -19,7 +19,7 @@ function App() {
           </div>
           <Router>
               <Switch>
-                <Footer />
+                <Contact />
               </Switch>
           </Router>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBView } from "mdbreact";
 import "../index.css";
 
-const Picture = () => {
+const About = () => {
 
   return (
     <MDBCard
@@ -83,7 +83,7 @@ const Picture = () => {
                 </MDBView>
                 <div className="d-flex justify-content-between">
                 </div>
-                <p className="dark-grey-text" id="about-me">
+                <p className="dark-grey-text" id="about">
                 Hi! My name is Denis and I am a junior full stack web developer. I grew up in Croatia and I moved to the United
                 States in 2001. I currently live in Sandy, UT.
                 <br />
@@ -168,4 +168,4 @@ const Picture = () => {
   );
 }
 
-export default Picture;
+export default About;

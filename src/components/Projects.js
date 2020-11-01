@@ -3,7 +3,7 @@ import {  MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBView, MDBMask } from "mdbreac
 
 const Projects = () => {
   return (
-    <section className="text-center my-5">
+    <section className="text-center my-5" id="projects">
         <h2 className="h1-responsive font-weight-bold my-5">
           My Projects
         </h2>
