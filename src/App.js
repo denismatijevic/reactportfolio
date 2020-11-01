@@ -1,21 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Switch } from "react-router-dom"
 import NavbarPage from './components/NavbarPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
 
+    <>
+      <NavbarPage />
         <div>
           <Router>
               <Switch>
-                <Route exact path="/" component={NavbarPage} />
-                {/* <PrivateRoute path="/update-profile" component={UpdateProfile} />
-                <Route path="/signup" component={Signup} />
-                <Route path="/login" component={Login} />
-                <Route path="/forgot-password" component={ForgotPassword} /> */}
+                <Footer />
               </Switch>
           </Router>
         </div>
+    </>
   )
 }
 
