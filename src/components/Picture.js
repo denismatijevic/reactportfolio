@@ -1,15 +1,3 @@
-// import React from "react";
-// import "../index.css";
-
-// function Picture() {
-//   return (
-//     <div className="col-md-3 col-sm-9 responsive">
-//       <img src="/assets/DenisSuit.png" alt="lookin fancy" id="about-me-pic" />
-//     </div>
-//   );
-// }
-
-// export default Picture;
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBView } from "mdbreact";
 import "../index.css";
@@ -110,7 +98,7 @@ const Picture = () => {
                 an avid hiker. I have a dog named Charlie, he is a GSP. He comes on a lot of adventures with me.
                 <br />
                 <br />
-                Currently I am attending school at The University of Utah, I'm enrolled in their coding bootcamp and I will be
+                Currently I am attending school at The University of Utah, I'm enrolled in their Full Stack Web Development bootcamp and I will be
                 graduating in Fall of 2020.
                 </p>
               </div>

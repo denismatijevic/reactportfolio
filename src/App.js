@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch } from "react-router-dom"
 import NavbarPage from './components/NavbarPage';
 import Footer from './components/Footer';
 import Picture from "./components/Picture";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         <Picture />
       </div>
         <div>
+          <div>
+            <Projects />
+          </div>
           <Router>
               <Switch>
                 <Footer />
