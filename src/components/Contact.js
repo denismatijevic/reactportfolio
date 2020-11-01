@@ -3,7 +3,7 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 // import "./footer.css";
 import "../index.css"
 
-const FooterPage = () => {
+const Contact = () => {
   return (
     <MDBFooter color="blue" className="font-small pt-2 mt-2">
       <MDBContainer fluid className="text-center">
@@ -33,4 +33,4 @@ const FooterPage = () => {
   );
 }
 
-export default FooterPage;
+export default Contact;
