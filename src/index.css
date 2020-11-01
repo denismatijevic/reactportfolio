@@ -24,6 +24,10 @@ code {
   border-radius: 1000px;
   }
 
+  #about-me {
+    margin-top: initial;
+  }
+
   .denis {
     font-size: 42px;
   }
