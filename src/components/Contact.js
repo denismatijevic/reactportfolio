@@ -17,7 +17,7 @@ const Contact = () => {
               <br />
               denisone90@gmail.com
               <br />
-              <a href="https://github.com/denismatijevic">
+              <a href="https://github.com/denismatijevic" target="_blank">
               github.com/denismatijevic
               </a>
             </p>
