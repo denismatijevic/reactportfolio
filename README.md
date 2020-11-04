@@ -4,7 +4,6 @@
 
 * [Process](#Process)
 * [Issues](#Issues)
-* [Video](#Video)
 * [Link](#Link)
 * [Screenshot](#Screenshot)
 
@@ -19,18 +18,21 @@
 * Along with a lot of "google fu"
 
 ## Issues
-
+* Ran into hosting issues, went with Heroku and was able to get it hosted after a bit of a battle. 
 
 ## Future-Plans
-
+* Add the final project to the portfolio
+* Animate some of the text input and activate all links
 
 ## Link 
 
-[]()
+[Link to my portfolio](https://fathomless-wave-24563.herokuapp.com/)
 
 ## Screenshot
 
 
-![Screenshot](public/assets/Screenshot.png)
+![About](public/assets/Screenshot.png)
 
-![]()
+![Projects](public/assets/Screenshot2.png)
+
+![Contact](public/assets/Screenshot3.png)
