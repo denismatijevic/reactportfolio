@@ -26,7 +26,7 @@ const Contact = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-1">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> Denis Matijevic </a>
+          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.linkedin.com/in/denis-matijevic-213463161/" target="_blank"> Denis Matijevic </a>
         </MDBContainer>
       </div>
     </MDBFooter>

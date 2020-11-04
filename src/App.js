@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import "./App.css";
 
 function App() {
+  // connecToServer() {    fetch('/');  }
   const linkTo = useRef (null)
   const moveToAbout = () => { linkTo.current.scrollIntoView({ behavior:"smooth" })}
   const linkTo2 = useRef (null)
