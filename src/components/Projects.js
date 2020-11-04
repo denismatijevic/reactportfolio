@@ -21,7 +21,7 @@ const Projects = () => {
               </a>
             </MDBView>
             <MDBCardBody className="pb-0">
-              <a href="http://flix-nut.herokuapp.com/" className="green-text">
+              <a href="http://flix-nut.herokuapp.com/" target="_blank" className="green-text">
                 <h5 className="font-weight-bold mt-2 mb-3">
                 <MDBIcon fab icon="github" />
                   Movie Tracker
@@ -49,7 +49,7 @@ const Projects = () => {
               </a>
             </MDBView>
             <MDBCardBody className="pb-0">
-              <a href="https://jordanrbunnell.github.io/spaceexploration/" className="blue-text">
+              <a href="https://jordanrbunnell.github.io/spaceexploration/" target="_blank" className="blue-text">
                 <h5 className="font-weight-bold mt-2 mb-3">
                 <MDBIcon fab icon="github" />
                   Space Exploration
@@ -77,7 +77,7 @@ const Projects = () => {
               </a>
             </MDBView>
             <MDBCardBody className="pb-0">
-              <a href="https://fitaf.herokuapp.com/?id=5f9e2692de6c5b001735efbf" className="brown-text">
+              <a href="https://fitaf.herokuapp.com/?id=5f9e2692de6c5b001735efbf" target="_blank" className="brown-text">
                 <h5 className="font-weight-bold mt-2 mb-3">
                 <MDBIcon fab icon="github" />
                   Fitness Tracker
@@ -97,7 +97,7 @@ const Projects = () => {
                 alt=""
                 className="img-fluid"
               />
-              <a href="https://mvceatdaburger.herokuapp.com/burgers">
+              <a href="https://mvceatdaburger.herokuapp.com/burgers" target="_blank">
                 <MDBMask overlay="white-slight" />
               </a>
             </MDBView>
